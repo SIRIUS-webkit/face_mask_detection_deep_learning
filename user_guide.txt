@@ -1,0 +1,7 @@
+*You must change your dir when you use 
+
+*When you use for face_mask_testing.py for video screen, you must uncomment
+     - cap = cv2.VideoCapture("yourvideo")
+     - frame = cv2.resize(frame, (640, 480), fx=0, fy=0, interpolation=cv2.INTER_CUBIC)
+
+*when you use for webcam, you can use directly
